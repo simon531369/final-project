@@ -8,7 +8,8 @@ public class NewTest {
   @Test
   public void f() {
 	  System.out.println("hello");
-	  System.setProperty("webdriver.chrome.driver", "/home/rahul/Downloads/chrome/chromedriver");
+	
+//	  System.setProperty("webdriver.chrome.driver", "/home/rahul/Downloads/chrome/chromedriver");
 	  System.out.println("hello1");
 		WebDriver driver=new ChromeDriver();
 		 System.out.println("hello2");

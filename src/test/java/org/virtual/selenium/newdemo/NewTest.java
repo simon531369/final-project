@@ -11,7 +11,9 @@ public class NewTest {
   public void f()  {
 	 
 	  
-		WebDriver driver=new ChromeDriver();
+	//	WebDriver driver=new ChromeDriver();
+	  	ChromeOptions options = new ChromeOptions();
+  		options.setBinary("/usr/bin");
 		 
 			driver.get("http://kushala.org/workspace/virtual-university/");
 			driver.manage().window().maximize();

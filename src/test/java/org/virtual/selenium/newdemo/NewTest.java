@@ -10,10 +10,8 @@ public class NewTest {
   @Test
   public void f()  {
 	 
-	  
-	//	WebDriver driver=new ChromeDriver();
-	  	ChromeOptions options = new ChromeOptions();
-  		options.setBinary("/usr/bin");
+	  	WebDriver driver=new ChromeDriver();
+	  	
 		 
 			driver.get("http://kushala.org/workspace/virtual-university/");
 			driver.manage().window().maximize();

@@ -15,7 +15,7 @@ public class NewTest {
 	  	
 		 
 			driver.get("http://kushala.org/workspace/virtual-university/");
-			driver.manage().window().maximize();
+			
 			 
 			
 			

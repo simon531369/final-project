@@ -3,8 +3,8 @@
 <suite guice-stage="DEVELOPMENT" name="Default suite">
   <test thread-count="5" verbose="2" name="Default test">
     <classes>
-      <class name="org.virtual.selenium.newdemo.NewTest"/>
-     
+      <class name="org.virtual.selenium.newdemo.AppTest"/>
+      <class name="org.virtual.selenium.newdemo.App"/>
     </classes>
   </test> <!-- Default test -->
 </suite> <!-- Default suite -->

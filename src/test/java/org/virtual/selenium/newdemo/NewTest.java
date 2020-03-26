@@ -11,7 +11,7 @@ public class NewTest {
   public void f()  {
 	 
 	  	WebDriver driver=new ChromeDriver();
-	  	System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver")
+	  	
 	  	
 		 
 			driver.get("http://kushala.org/workspace/virtual-university/");
